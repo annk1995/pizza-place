@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-*{
-f}
+/* *{
+f} */
 #contents{
     margin-top: 5px;
 }
 nav{
-    background-color: rgb(240, 233, 222);
+    background-color:rgb(97, 19, 19);
 }
-nav ul li{
+nav:hover{
+  
+   
+}
+nav ul li .nav-link{
     color: #ffff;
-    font-size: 15px;
-}
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+} 
+
 
 #oven{
     height: 495px;
@@ -36,3 +42,22 @@ nav ul li{
 
     
 }
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+
+}
+.container h1{
+    margin-left: 42%;
+    font-family: 'Dancing Script', cursive;
+
+
+}
+.container p{
+    font-size: 16px;
+}
+
