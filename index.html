@@ -27,7 +27,7 @@
                   <a class="nav-link" href="#order">your order</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#" tabindex="-1" >contact us</a>
+                  <a class="nav-link" href="#contact" >contact us</a>
                 </li>
               </ul>
     </nav>
@@ -133,8 +133,9 @@
   </div>
  
   </div>
-  <div id="order">
-    <form>
+  <br>
+  <br>
+    <form id="order">
       <p>price</p>
     <select name="size" id="size">
       <option value="400">small</option>
@@ -166,11 +167,29 @@
       <option value="">with cheese</option>
       <option value="">without cheese</option>
     </select>
+    <br>
+    <br>
     <button id="checkout">check out</button>
 
   </div>
 </form>
-  </div>
+<br>
+<br>
+<div class="contacts">
+  <h3>CONTACT US</h3>
+  <form id="contactUs">
+      <div id="info">
+          <input id="name" type="text" placeholder="Name...">
+          <input id="email" type="text" placeholder="Email..."> <br>
+      </div>
+      <textarea id="textarea" type="text" placeholder="Your message here..." cols="58" rows="8"></textarea>
+
+
+      <br></br>
+      <button id="button" class="bg-success" onclick="submit">SUBMIT</button>
+  </form>
+</div>
+  
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="script.js"></script>
