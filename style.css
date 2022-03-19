@@ -60,7 +60,7 @@ nav ul li .nav-link{
 .container p{
     font-size: 16px;
 }
-.row{
+#menu{
     margin-left: 150px;
     margin-right: 150px;
     background-color:rgb(97, 19, 19) ;
@@ -70,13 +70,21 @@ nav ul li .nav-link{
     color: #ffff;
     font-size: 18px;
 }
-.row h1{
+#menu ol{
+    margin-left: 50px;
+}
+#menu h1{
     font-family: 'Dancing Script', cursive;
     margin-left: 40%;
 
 }
-.row p{
+#menu p{
     font-family: 'Dancing Script', cursive;
 
 }
-
+#order{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #ffff;
+    border-color:rgb(69, 6, 151) ;
+}
