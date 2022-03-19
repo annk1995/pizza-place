@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+f}
+#contents{
+    margin-top: 5px;
+}
+nav{
+    background-color: rgb(240, 233, 222);
+}
+nav ul li{
+    color: #ffff;
+    font-size: 15px;
+}
+
+#oven{
+    height: 495px;
+    width: auto;
+    object-fit: cover;
+
+}
+#cheese{
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+
+}
+#quarter{
+    height: 500px;
+    width: auto;
+    object-fit: cover;
+
+}
+#caorusel h1{
+    font-size: 100px;
+    font-family: 'Dancing Script', cursive;
+
+    
+}
