@@ -69,4 +69,9 @@ nav ul li .nav-link{
     width: auto;
     color: #ffff;
 }
+.row h1{
+    font-family: 'Dancing Script', cursive;
+    margin-left: 40%;
+
+}
 
