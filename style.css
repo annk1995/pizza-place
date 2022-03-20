@@ -91,7 +91,7 @@ nav ul li .nav-link{
      
 }
 
-.contacts {
+#contact{
     background-image: url("images/bottom.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,10 +100,5 @@ nav ul li .nav-link{
     padding: 70px 30px;
     height: 370px;
     position: relative;
-    opacity: 0.8;
 }
-.contacts h3{
-    color: rgb(97, 19, 19;
-    font-family: 'Dancing Script', cursive;
 
-}
