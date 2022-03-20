@@ -9,7 +9,7 @@
     <title>rpc</title>
 </head>
 <body>
-    <div class="">
+    
         <nav>
             
                 
@@ -86,97 +86,122 @@
     <hr width="100%" height="10px" color="#611313" border-color="#611313">
    <br>
    <div class="row" id="menu">
-     <h1><strong>our menu</strong></h1>
-    <div class="col-6">
-      <ol>
-        <li>Veggie pizza
-          <p>small-400,medium-600,large-1000</p>
-        </li>
-        <li>meat pizza
-          <p>small-400,medium-600,large-1000</p>
+    <h1><strong>our menu</strong></h1>
+   <div class="col-6">
+     <ol>
+       <li>Veggie pizza
+         <p>small-400,medium-600,large-1000</p>
+       </li>
+       <li>meat pizza
+         <p>small-400,medium-600,large-1000</p>
 
-        </li>
-        <li>Hawain pizza
-          <p>small-400,medium-600,large-1000</p>
-        </li>
-        <li>bbq chicken
-          <p>small-400,medium-600,large-1000</p>
+       </li>
+       <li>Hawain pizza
+         <p>small-400,medium-600,large-1000</p>
+       </li>
+       <li>bbq chicken
+         <p>small-400,medium-600,large-1000</p>
 
-        </li>extra toppings
-          <p>pineapple-250,chicken-250,cheese-250</p>
+       </li>extra toppings
+         <p>pineapple-250,chicken-250,cheese-250</p>
 
-        </li>
-      </ol>
-     
-    </div>
-    <div class="col-6">
-      <ol>
-      <li>mushroom  pizza
-        <p>small-400,medium-600,large-1000</p>
-      </li>
-      <li>bbq pork pizza
-        <p>small-400,medium-600,large-1000</p>
+       </li>
+     </ol>
+    
+   </div>
+   <div class="col-6">
+     <ol>
+     <li>mushroom  pizza
+       <p>small-400,medium-600,large-1000</p>
+     </li>
+     <li>bbq pork pizza
+       <p>small-400,medium-600,large-1000</p>
 
-      </li>
-      <li>chicken pizza
-        <p>small-400,medium-600,large-1000</p>
-      </li>
-      <li>spicy veggie
-        <p>small-400,medium-600,large-1000</p>
+     </li>
+     <li>chicken pizza
+       <p>small-400,medium-600,large-1000</p>
+     </li>
+     <li>spicy veggie
+       <p>small-400,medium-600,large-1000</p>
 
-      </li>extra crust
-        <p> with cheese-150,without cheese-100</p>
+     </li>extra crust
+       <p> with cheese-150,without cheese-100</p>
 
-      </li>
-    </ol>
-  </div>
-  </div>
- 
-  </div>
+     </li>
+   </ol>
+ </div>
+ </div>
+
+ </div>
   <br>
   <br>
-    <form  class="container-fluid" id="order">
-      <p>price</p>
-    <select name="size" id="size">
-      <option value="400">small</option>
-      <option value="600">medium</option>
-      <option value="1000">large</option>
-    </select>
-    <p>choose your desired pizza</p>
-    <select name="pizza type" id="type">
-      <option value="veggie pizza">veggie pizza</option>
-      <option value="meat pizza">meat pizza</option>
-      <option value="hawaian pizza">hawaian pizza</option>
-      <option value="bbq chicken">bbq chicken pizza</option>
-      <option value="mushroom pizza">mushroom pizza</option>
-      <option value="bbq pork pizza ">bbq pork pizza</option>
-      <option value="chicken pizza">chicken pizza</option>
-      <option value="spicy veggie pizza"> spicy veggie pizza</option>
-      
-    </select>
-    <p>extra toppings</p>
-    <select name="extra toppings" id="toppings">
-      <option value="250">pineapple</option>
-      <option value="250">chicken</option>
-      <option value="250">cheese</option>
+  <form  class="container-fluid" id="order">
+    <p>price</p>
+  <select name="size" id="sizes">
+    <option value="400">small</option>
+    <option value="600">medium</option>
+    <option value="1000">large</option>
+  </select>
+  <p>choose your desired pizza</p>
+  <select name="pizza type" id="type">
+    <option value="veggie pizza">veggie pizza</option>
+    <option value="meat pizza">meat pizza</option>
+    <option value="hawaian pizza">hawaian pizza</option>
+    <option value="bbq chicken">bbq chicken pizza</option>
+    <option value="mushroom pizza">mushroom pizza</option>
+    <option value="bbq pork pizza ">bbq pork pizza</option>
+    <option value="chicken pizza">chicken pizza</option>
+    <option value="spicy veggie pizza"> spicy veggie pizza</option>
+    
+  </select>
+  <p>extra toppings</p>
+  <select name="extra toppings" id="toppings">
+    <option value="250">pineapple</option>
+    <option value="250">chicken</option>
+    <option value="250">cheese</option>
 
-    </select>
-    <p>extra crust</p>
-    <select name="extra crust" id="cheesee">
-      
-      <option value="150">with cheese</option>
-      <option value="100">without cheese</option>
-    </select>
-    <br>
-    <br>
-    <button id="checkout">check out</button>
-  </div>
+  </select>
+  <p>extra crust</p>
+  <select name="extra crust" id="cheesee">
+    
+    <option value="150">with cheese</option>
+    <option value="100">without cheese</option>
+  </select>
+  <br>
+  <br>
+  <button id="checkout">check out</button>
+</div>
 </form>
-<h1 id="testss" style="display: none;">Test
-  <p id="totalss"></p>
-</h1>
+<div class="choise">
+  <h2>Your order is:</h2>
+  <div id="your-orders">
+      <table class="table table-sm  pizzatable">
+          <thead>
+              <tr>
+                  <th scope="col">price</th>
+                  <th scope="col">type</th>
+                  <th scope="col">toppings</th>
+                  <th scope="col">crust</th>
+                  <th scope="col">Total</th>
+              </tr>
+          </thead>
+          <tbody id="ordersmade">
+              <tr>
+                  <td id="size"></td>
+                  <td id="types"></td>
+                  <td id="toppingss"></td>
+                  <td id="cheesee"></td>
+                  <td id="totalss"></td>
+              </tr>
+
+          </tbody>
+
+      </table>
+<!--<h1 id="testss" style="display: none;">Test
+<p id="totalss"></p>
+</h1>-->
 <br>
-<div class="container-fluid" id="contact">
+<div  id="contact">
   <h1>contact us</h1>
   <form id="contactUs">
     <div id="info">

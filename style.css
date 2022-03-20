@@ -1,107 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-body{
-    overflow-x: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+body {
 }
-#contents{
-    margin-top: 5px;
+#contents {
+  margin-top: 5px;
 }
-nav{
-    background-color:rgb(97, 19, 19);
+nav {
+  background-color: rgb(97, 19, 19);
 }
-nav:hover{
-  
-   
+nav:hover {
 }
-nav ul li .nav-link{
-    color: #ffff;
-    font-size: 25px;
-    font-family: 'Dancing Script', cursive;
-} 
-
-
-#oven{
-    height: 495px;
-    width: auto;
-    object-fit: cover;
-
-}
-#cheese{
-    height: 500px;
-    width: auto;
-    object-fit: cover;
-
-}
-#quarter{
-    height: 500px;
-    width: auto;
-    object-fit: cover;
-
-}
-#caorusel h1{
-    font-size: 100px;
-    font-family: 'Dancing Script', cursive;
-
-    
-}
-#about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 150px;
-    margin-right: 150px;
-    
-
-}
-.container h1{
-    margin-left: 42%;
-    font-family: 'Dancing Script', cursive;
-
-
-}
-.container p{
-    font-size: 16px;
-}
-#menu{
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color:rgb(97, 19, 19) ;
-    border-radius: 30px;
-    height: 70vh;
-    width: auto;
-    color: #ffff;
-    font-size: 18px;
-}
-#menu ol{
-    margin-left: 50px;
-}
-#menu h1{
-    font-family: 'Dancing Script', cursive;
-    margin-left: 40%;
-
-}
-#menu p{
-    font-family: 'Dancing Script', cursive;
-
-}
-#order{
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: rgb(97, 19, 19) ;
-    border: 1px solid #000000;
-   
-     
+nav ul li .nav-link {
+  color: #ffff;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
 }
 
-#contact{
-    background-image: url("images/bottom.jpg");
-    border-radius: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-sizing: content-box;
-    text-align: center;
-    padding: 70px 30px;
-    height: 370px;
-    width: 70%;
-    position: relative;
+#oven {
+  height: 495px;
+  width: auto;
+  object-fit: cover;
+}
+#cheese {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+#quarter {
+  height: 500px;
+  width: auto;
+  object-fit: cover;
+}
+#caorusel h1 {
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+}
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.container h1 {
+  margin-left: 42%;
+  font-family: "Dancing Script", cursive;
+}
+.container p {
+  font-size: 16px;
+}
+#menu {
+  background-color: rgb(97, 19, 19);
+  border-radius: 30px;
+  height: 70vh;
+  width: 70vw;
+  color: #ffff;
+  font-size: 18px;
+}
+#menu ol {
+  margin-left: 50px;
+}
+#menu h1 {
+  font-family: "Dancing Script", cursive;
+  margin-left: 40%;
+}
+#menu p {
+  font-family: "Dancing Script", cursive;
+}
+#order {
 }
 
+#contact {
+  background-image: url("images/bottom.jpg");
+  border-radius: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: content-box;
+  text-align: center;
+  padding: 70px 30px;
+  height: 370px;
+  width: 70%;
+  position: relative;
+}
