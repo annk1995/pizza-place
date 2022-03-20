@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-/* *{
-f} */
+body{
+    overflow-x: hidden;
+}
 #contents{
     margin-top: 5px;
 }
@@ -93,12 +94,14 @@ nav ul li .nav-link{
 
 #contact{
     background-image: url("images/bottom.jpg");
+    border-radius: 50px;
     background-size: cover;
     background-repeat: no-repeat;
     box-sizing: content-box;
     text-align: center;
     padding: 70px 30px;
     height: 370px;
+    width: 70%;
     position: relative;
 }
 
