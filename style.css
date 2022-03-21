@@ -81,3 +81,6 @@ nav ul li .nav-link {
   width: 70%;
   position: relative;
 }
+.choise{
+  display: none;
+}

@@ -19,9 +19,22 @@ if (size == "400"){
     document.getElementById('size').innerText = "large"
 }
     document.getElementById('types').innerText =type;
-    document.getElementById('toppingss').innerText =topping;
+   // document.getElementById('toppingss').innerText =topping;
+   if (topping == "250"){
+       document.getElementById('toppingss').innerText = "pineapple"
+   }else if  (topping == "100"){
+    document.getElementById('toppingss').innerText = "cheese"
+   }else{
     
+        document.getElementById('toppingss').innerText = "chicken"
+   }
+   document.getElementById('cheese').innerText="cheesee"
 
-    $('#testss').show();
-    return false;
+    
+   $("#checkout").submit(function(event){
+       event.preventDefault();
+       console.log('hi')
+   // $("#choise").toggle();
+  });
+   
 })
