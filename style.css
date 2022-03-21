@@ -99,4 +99,15 @@ nav ul li .nav-link {
 .choise{
   display: none;
 }
-
+.lastPart{
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-evenly 10px;
+  height: 30px;
+}
+.lastPart img{
+  padding: 5px;
+}
+.lastPart img :hover{
+height:50px;  
+}
