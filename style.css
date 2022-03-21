@@ -78,7 +78,13 @@ nav ul li .nav-link {
   margin-left: 300px;
   border-radius: 10px;
 }
+#checkout{
+  background-color: rgb(97, 19, 19);
+  color: #ffff;
+  border-radius: 3px;
 
+
+}
 #contact {
   background-image: url("images/bottom.jpg");
   border-radius: 50px;
