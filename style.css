@@ -70,13 +70,17 @@ nav ul li .nav-link {
 #order {
   background-color: #ffff;
   width:400px ;
-  height: 500px;
+  height: 520px;
   display: inline-block;
   border-style: solid;
   border-color:rgb(97, 19, 19);
   align-items: center;
   margin-left: 300px;
   border-radius: 10px;
+}
+#order h1{
+  color:rgb(97, 19, 19) ;
+  font-family: "Dancing Script", cursive;
 }
 #checkout{
   background-color: rgb(97, 19, 19);
