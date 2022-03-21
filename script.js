@@ -6,7 +6,7 @@ $('#order').submit(function(event){
     var topping = document.getElementById('toppings').value;
     var cheese = document.getElementById('cheesee').value;
     var delivery = document.getElementById('delivery').value;
-    var t = (parseInt(size)+parseInt(topping)+parseInt(cheese))
+    var t = (parseInt(size)+parseInt(topping)+parseInt(cheese)+parseInt(delivery))
    
    
     document.getElementById('totalss').innerText = t;
