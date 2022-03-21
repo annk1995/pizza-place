@@ -4,6 +4,7 @@ $('#order').submit(function(){
     var type =document.getElementById('type').value
     var topping = document.getElementById('toppings').value;
     var cheese = document.getElementById('cheesee').value;
+    var delivery = document.getElementById('delivery').value;
     var t = (parseInt(size)+parseInt(topping)+parseInt(cheese))
    
    
@@ -29,6 +30,11 @@ if (size == "400"){
         document.getElementById('toppingss').innerText = "chicken"
    }
    document.getElementById('cheese').innerText="cheesee"
+   if (delivery == "250"){
+       document.getElementById('deliverys').innerText = "nairobi"
+   }else{
+        document.getElementById('deliverys').innerText = "Thika"
+   }
 
     $('.choise').show();
    
