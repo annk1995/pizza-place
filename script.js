@@ -1,4 +1,5 @@
-$('#order').submit(function(){
+$('#order').submit(function(event){
+    event.preventDefault();
     var size = document.getElementById('sizes').value;
     console.log(size)
     var type =document.getElementById('type').value
