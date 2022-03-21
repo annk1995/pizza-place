@@ -55,6 +55,7 @@ nav ul li .nav-link {
   color: #ffff;
   font-size: 18px;
   margin-left: 150px;
+  overflow-x: hidden;
 }
 #menu ol {
   margin-left: 50px;
@@ -90,6 +91,7 @@ nav ul li .nav-link {
   width: 70%;
   position: relative;
   margin-left: 150px;
+  overflow-x: hidden;
 }
 #contact h1{
   font-family: "Dancing Script", cursive;
@@ -112,7 +114,5 @@ nav ul li .nav-link {
 height:50px;  
 }
 @media only screen and (max-width: 600px) {
-  body {
-    
-  }
+  #men
 }
