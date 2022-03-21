@@ -38,8 +38,7 @@ nav ul li .nav-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 150px;
-  margin-right: 150px;
+
 }
 .container h1 {
   margin-left: 42%;
@@ -55,6 +54,7 @@ nav ul li .nav-link {
   width: 70vw;
   color: #ffff;
   font-size: 18px;
+  margin-left: 150px;
 }
 #menu ol {
   margin-left: 50px;
@@ -67,6 +67,15 @@ nav ul li .nav-link {
   font-family: "Dancing Script", cursive;
 }
 #order {
+  background-color: #ffff;
+  width:400px ;
+  height: 400px;
+  display: inline-block;
+  border-style: solid;
+  border-color:rgb(97, 19, 19);
+  align-items: center;
+  margin-left: 300px;
+  border-radius: 10px;
 }
 
 #contact {
@@ -80,6 +89,12 @@ nav ul li .nav-link {
   height: 370px;
   width: 70%;
   position: relative;
+  margin-left: 150px;
+}
+#contact h1{
+  font-family: "Dancing Script", cursive;
+  color: #ffff;
+  font-size: 55px;
 }
 .choise{
   display: none;
